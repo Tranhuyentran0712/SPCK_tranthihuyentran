@@ -3,31 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Blog</title>
-    <link rel="stylesheet" href="../CSS/style.css" />
+    <title>Đăng nhập</title>
+    <link rel="stylesheet" href="../CSS/signin.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Allura&family=Amatic+SC:wght@400;700&family=Baloo+Paaji+2:wght@400..800&family=Bungee&family=Dancing+Script:wght@400..700&family=Great+Vibes&family=Noto+Serif+Display:ital,wght@0,100..900;1,100..900&family=Paytone+One&family=Protest+Strike&family=Smooch&display=swap"
       rel="stylesheet"
     />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
   </head>
   <body>
     <header>
       <div class="container">
-        <div class="logo">
-          <a class="logo-name" href="../index.html">Lụa Xuân</a>
-          <a class="user" href="../HTML/signin.html"
-            ><i class="fa-solid fa-user"></i
-          ></a>
-        </div>
+        <div class="logo"><a href="../index.html">Lụa Xuân</a></div>
         <nav>
           <ul class="nav-menu">
             <li><a href="../index.html">Trang chủ</a></li>
@@ -39,5 +27,36 @@
         </nav>
       </div>
     </header>
+    <section id="auth" class="container">
+      <div class="auth-box">
+        <h2>Đăng Nhập</h2>
+        <form action="#">
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input
+              type="email"
+              id="email"
+              placeholder="Nhập email của bạn"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="password">Mật khẩu:</label>
+            <input
+              type="password"
+              id="password"
+              placeholder="Nhập mật khẩu của bạn"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <button type="submit" class="btn">Đăng Nhập</button>
+          </div>
+          <p class="switch-link">
+            Chưa có tài khoản? <a href="./signup.html">Đăng Ký</a>
+          </p>
+        </form>
+      </div>
+    </section>
   </body>
 </html>

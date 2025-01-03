@@ -22,6 +22,14 @@ header {
   color: white;
   padding: 10px 0;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  z-index: 1000;
+  top: 0;
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+header.faded {
+  opacity: 0.95;
 }
 
 .logo {
@@ -29,10 +37,14 @@ header {
   font-weight: 400;
   font-style: normal;
   font-size: 30px;
+  display: flex;
 }
 .logo a {
   text-decoration: none;
   color: #fff;
+}
+.user {
+  margin-left: auto;
 }
 
 .nav-menu {
@@ -59,7 +71,7 @@ header {
 
 /* Hero Section */
 #hero {
-  background-image: url("../assets/20241214_oKATXOul.jpg");
+  /* background-image: url("../assets/20241214_oKATXOul.jpg"); */
   background-size: cover;
   background-position: center;
   height: 80vh;
@@ -86,7 +98,6 @@ header {
   margin-bottom: 30px;
 }
 
-/* Categories Section */
 #categories h2 {
   text-align: center;
   font-size: 2rem;
@@ -125,24 +136,61 @@ header {
   transform: scale(1.05);
 }
 
-/* Collections Section */
-#collections h2 {
+/* Section: Special Offers */
+/* #special-offers {
   text-align: center;
+  margin: 50px 0;
+} */
+
+#special-offers h2 {
   font-size: 2rem;
+  color: #d32f2f;
   margin-bottom: 20px;
+  font-family: "Arial", sans-serif;
+  text-align: center;
+}
+
+.offers {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.offer {
+  background-color: white;
+  border: 2px solid #ffe082;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+  text-align: center;
+}
+
+.offer img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.offer h3 {
+  margin: 15px 0;
+  font-size: 1.5rem;
+  color: #5c3a00;
+  font-weight: bold;
+}
+
+.offer p {
+  font-size: 1.2rem;
   color: #d32f2f;
 }
 
-.gallery {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 20px;
+.offer strong {
+  color: #ff6f00;
 }
 
-.gallery img {
-  width: 100%;
-  border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.offer:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
 }
 
 /* Footer */
