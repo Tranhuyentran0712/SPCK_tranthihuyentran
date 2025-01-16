@@ -22,14 +22,6 @@ header {
   color: white;
   padding: 10px 0;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  position: sticky;
-  z-index: 1000;
-  top: 0;
-  opacity: 1;
-  transition: opacity 0.3s ease;
-}
-header.faded {
-  opacity: 0.95;
 }
 
 .logo {
@@ -71,7 +63,6 @@ header.faded {
 
 /* Hero Section */
 #hero {
-  /* background-image: url("../assets/20241214_oKATXOul.jpg"); */
   background-size: cover;
   background-position: center;
   height: 80vh;
@@ -85,7 +76,6 @@ header.faded {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  border-radius: 10px;
 }
 #hero .hero-text h1 {
   font-size: 3rem;
@@ -135,6 +125,10 @@ header.faded {
 .category:hover {
   transform: scale(1.05);
 }
+#products a {
+  text-decoration: none;
+  color: #5c3a00;
+}
 
 /* Section: Special Offers */
 /* #special-offers {
@@ -155,6 +149,8 @@ header.faded {
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 20px;
   padding: 20px;
+  align-items: center;
+  justify-content: center;
 }
 
 .offer {
@@ -165,10 +161,13 @@ header.faded {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s, box-shadow 0.3s;
   text-align: center;
+  max-width: 400px; /* Giới hạn chiều rộng tối đa */
+  margin: auto;
 }
 
 .offer img {
   max-width: 100%;
+  height: 500px;
   border-radius: 10px;
 }
 

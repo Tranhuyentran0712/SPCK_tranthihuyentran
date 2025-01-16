@@ -1,0 +1,164 @@
+[
+  {
+    "product_id": 1,
+    "product_image": "assets/áo dài kem.jpg",
+    "product_name": "áo dài kem",
+    "product_price": 1000000
+  },
+  {
+    "product_id": 2,
+    "product_image": "assets/áo dài đỏ rượu.jpg",
+    "product_name": "áo dài đỏ rượu",
+    "product_price": 1000000
+  },
+  {
+    "product_id": 3,
+    "product_image": "assets/áo dài dương họa tiết.jpg",
+    "product_name": "áo dài dương họa tiết",
+    "product_price": 1000000
+  },
+  {
+    "product_id": 4,
+    "product_image": "assets/áo dài hồng lụa.jpg",
+    "product_name": "áo dài hồng lụa",
+    "product_price": 1000000
+  },
+  {
+    "product_id": 5,
+    "product_image": "assets/áo dài hồng nơ.jpg",
+    "product_name": "áo dài hồng nơ",
+    "product_price": 1000000
+  },
+  {
+    "product_id": 6,
+    "product_image": "assets/áo dài hồng.jpg",
+    "product_name": "áo dài hồng",
+    "product_price": 1000000
+  },
+  {
+    "product_id": 7,
+    "product_image": "assets/áo dài lá.jpg",
+    "product_name": "áo dài hồng lá",
+    "product_price": 1000000
+  },
+  {
+    "product_id": 8,
+    "product_image": "assets/áo dài trắng.jpg",
+    "product_name": "áo dài trắng",
+    "product_price": 1000000
+  },
+  {
+    "product_id": 9,
+    "product_image": "assets/áo dài vàng.jpg",
+    "product_name": "áo dài vàng",
+    "product_price": 1000000
+  },
+  {
+    "product_id": 10,
+    "product_image": "assets/áo dài xanh ngọc.jpg",
+    "product_name": "áo dài xanh ngọc",
+    "product_price": 1000000
+  },
+  {
+    "product_id": 11,
+    "product_image": "assets/áo tấc đỏ.jpg",
+    "product_name": "áo tấc đỏ",
+    "product_price": 1000000
+  },
+  {
+    "product_id": 12,
+    "product_image": "assets/áo tấc hồng.jpg",
+    "product_name": "áo tấc hồng",
+    "product_price": 1000000
+  },
+  {
+    "product_id": 13,
+    "product_image": "assets/áo tấc xanh dương.jpg",
+    "product_name": "áo tấc xanh dương",
+    "product_price": 1000000
+  },
+  {
+    "product_id": 14,
+    "product_image": "assets/áo tấc xanh lá.jpg",
+    "product_name": "áo tấc xanh lá",
+    "product_price": 1000000
+  },
+  {
+    "product_id": 15,
+    "product_image": "assets/áo tấc.jpg",
+    "product_name": "áo tấc",
+    "product_price": 1000000
+  },
+  {
+    "product_id": 16,
+    "product_image": "assets/áo.jpg",
+    "product_name": "áo tấc đỏ",
+    "product_price": 1000000
+  },
+  {
+    "product_id": 17,
+    "product_image": "assets/cách tân đỏ trắng.jpg",
+    "product_name": "áo dài cách tân đỏ trắng",
+    "product_price": 1000000
+  },
+  {
+    "product_id": 18,
+    "product_image": "assets/cách tân đỏ.jpg",
+    "product_name": "áo dài cách tân đỏ",
+    "product_price": 1000000
+  },
+  {
+    "product_id": 19,
+    "product_image": "assets/cách tân hồng nhạt.jpg",
+    "product_name": "áo dài cách tân hồng nhạt",
+    "product_price": 1000000
+  },
+  {
+    "product_id": 20,
+    "product_image": "assets/cách tân hồng.jpg",
+    "product_name": "áo dài cách tân hồng",
+    "product_price": 1000000
+  },
+  {
+    "product_id": 21,
+    "product_image": "assets/cách tân vàng.jpg",
+    "product_name": "áo dài cách tân vàng",
+    "product_price": 1000000
+  },
+  {
+    "product_id": 22,
+    "product_image": "assets/cách tân xanh.jpg",
+    "product_name": "áo dài cách tân xanh",
+    "product_price": 1000000
+  },
+  {
+    "product_id": 23,
+    "product_image": "assets/nhật bình hồng.jpg",
+    "product_name": "nhật bình hồng",
+    "product_price": 1000000
+  },
+  {
+    "product_id": 24,
+    "product_image": "assets/nhật bình lá.jpg",
+    "product_name": "nhật bình lá",
+    "product_price": 1000000
+  },
+  {
+    "product_id": 25,
+    "product_image": "assets/nhật bình xanh.jpg",
+    "product_name": "nhật bình xanh",
+    "product_price": 1000000
+  },
+  {
+    "product_id": 26,
+    "product_image": "assets/nhật bình đỏ.jpg",
+    "product_name": "nhật bình đỏ",
+    "product_price": 1000000
+  },
+  {
+    "product_id": 27,
+    "product_image": "assets/giao lĩnh.jpg",
+    "product_name": "giao lĩnh",
+    "product_price": 1000000
+  }
+]
