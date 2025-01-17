@@ -65,7 +65,7 @@ header {
 #hero {
   background-size: cover;
   background-position: center;
-  height: 80vh;
+  /* height: 80vh; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -161,7 +161,7 @@ header {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s, box-shadow 0.3s;
   text-align: center;
-  max-width: 400px; /* Giới hạn chiều rộng tối đa */
+  max-width: 400px;
   margin: auto;
 }
 
@@ -211,4 +211,60 @@ footer .socials a {
 
 footer .socials a:hover {
   color: #ffe082;
+}
+@media (max-width: 768px) {
+  #hero {
+    background-size: cover;
+    background-position: center;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+  }
+  .logo {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-menu {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  #categories .categories {
+    flex-direction: column;
+  }
+
+  #special-offers .offers {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo-name {
+    font-size: 1.2rem;
+  }
+
+  .user {
+    font-size: 1.2rem;
+  }
+
+  .nav-menu li a {
+    font-size: 0.9rem;
+  }
+
+  .category img,
+  .offer img {
+    max-height: 150px;
+  }
+
+  .category h3,
+  .offer h3 {
+    font-size: 1rem;
+  }
+
+  .offer p {
+    font-size: 0.9rem;
+  }
 }

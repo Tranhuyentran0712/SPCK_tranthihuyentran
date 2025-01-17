@@ -14,6 +14,6 @@ form.addEventListener("submit", (event) => {
   } else {
     localStorage.setItem(form.email.value, JSON.stringify(newUser));
     alert("Đăng ký thành công!");
-    window.location.href = "";
+    window.location.href = "../index.html";
   }
 });

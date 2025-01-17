@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Blog</title>
-    <link rel="stylesheet" href="../CSS/style.css" />
+    <title>Trang Mua Hàng</title>
+    <link rel="stylesheet" href="../CSS/card.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -17,6 +17,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer" />
   </head>
+
   <body>
     <header>
       <div class="container">
@@ -31,10 +32,44 @@
             <li><a href="../index.html">Trang chủ</a></li>
             <li><a href="./sanpham.html">Sản phẩm</a></li>
             <li><a href="./bosuutap.html">Bộ sưu tập</a></li>
-            <li><a href="./tuvan.html">Blog</a></li>
+            <li><a href="./card.html">Giỏ hàng</a></li>
           </ul>
         </nav>
       </div>
     </header>
+
+    <main class="checkout">
+      <h1>Giỏ Hàng Của Bạn</h1>
+
+      <div class="cart">
+        <div class="cart-items" id="cart-items">
+          <!-- Các sản phẩm sẽ được hiển thị tại đây -->
+        </div>
+
+        <div class="cart-summary">
+          <h2>Tổng Quan Đơn Hàng</h2>
+          <div class="summary-item">
+            <span>Tổng cộng:</span>
+            <span id="total-price">0 VNĐ</span>
+          </div>
+          <button class="checkout-btn" id="checkout-btn">
+            Hoàn tất đơn hàng
+          </button>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="container">
+        <p>&copy; 2024 Lụa Xuân. All rights reserved.</p>
+        <div class="socials">
+          <a href="#">Facebook</a>
+          <a href="#">Instagram</a>
+          <a href="#">Zalo</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="../JS/card.js"></script>
   </body>
 </html>
